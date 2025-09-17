@@ -1,0 +1,48 @@
+
+:root {
+    /* --cor-de-fundo: #1E1E1E; */
+    /* --titulo-produto: #038C25; */
+    --cor-cabecalho: #000000;
+    --branco: #FFFFFF;
+    --hover:  #1e1e1e;
+}
+
+.barrapesquisa {
+    background-color: var(--cor-cabecalho);
+    display: flex;
+    justify-content: space-around;
+    color: var(--branco);
+    font-size: large;
+    padding: 25px;
+
+}
+
+.pesquisa {
+    width: 25%;
+    border: solid;
+    padding: 10px;
+    color: var(--branco);
+    border-radius: 8px;
+    border-width: thin;
+    background-color:var(--cor-cabecalho);
+}
+
+.pesquisa:hover {
+    background-color:var(--hover)
+}
+
+
+.btn {
+    width: 5%;
+    border: solid;
+    padding: 10px;
+    color: var(--branco);
+    border-radius: 8px;
+    border-width: thin;
+    background-color:var(--cor-cabecalho);
+}
+
+.btn:hover {
+    background-color: var(--hover);
+    cursor: pointer;
+}

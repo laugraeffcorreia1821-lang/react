@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor-de-fundo: #111111;
+    /* --titulo-produto: #038C25; */
+    --cor-cabecalho: #000000;
+    --branco: #FFFFFF;
+    --hover:  #1e1e1e;
+}
+
+.botoes {
+    background-color: var(--cor-de-fundo);
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 0px;
+}
+
+.btn {
+    border-radius: 8px;
+    background-color:var(--cor--de-fundo);
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: var(--hover);
+    cursor: pointer;
+}
