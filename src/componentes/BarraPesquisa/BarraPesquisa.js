@@ -9,7 +9,7 @@ const navegaProPerfil = () => {
   }
 
 const navegaProInicio = () => {
-    navigate('/uniformes')
+    navigate('/')
   }
 
     return (
