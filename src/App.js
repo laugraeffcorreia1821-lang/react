@@ -1,4 +1,4 @@
-import { Route, Routes, useNavigate, BrowserRouter } from 'react-router-dom';
+import { Route, Routes, BrowserRouter } from 'react-router-dom';
 import BarraPesquisa from './componentes/BarraPesquisa/BarraPesquisa';
 import Uniformes from './pages/Uniformes';
 import Perfil from './pages/Perfil';
@@ -13,7 +13,7 @@ export default function App() {
       <BarraPesquisa />
           <Routes>
             <Route path='/Perfil' element={<Perfil />} />
-            <Route path='/Uniformes' element={<Uniformes/>} />
+            <Route path='/' element={<Uniformes/>} />
             <Route path='/Popup' element={<Popup/>} />
           </Routes>
         </BrowserRouter>
